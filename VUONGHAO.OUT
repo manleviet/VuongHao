@@ -1,0 +1,33 @@
+De bai:
+Cho cac dong nhat dung sau:
+1, !r|s
+2, !r|u
+3, !u|r
+4, !u|s
+5, r&s
+Chung minh u&sð1
+Bai lam:
+Ta bien doi cac bieu thuc:
+u&s
+r&s
+!u|s ð U|s
+!u|r ð U|r
+!r|u ð R|u
+!r|s ð R|s
+Cac bieu thuc sau khi da bien doi:
+R|s
+R|u
+U|r
+U|s
+r&s
+u&s
+Ta phai chung minh:
+(R|s)&(R|u)&(U|r)&(U|s)&(s)&(r)=>s
+(R|s)&(R|u)&(U|r)&(U|s)&(s)&(r)=>u
+Ta co: (R|s)&(R|u)&(U|r)&(U|s)&(s)&(r)=>s :Co sðs o ve phai
+Ta phai chung minh:
+(R|s)&(R)&(U|r)&(U|s)&(s)&(r)=>u
+(R|s)&(u)&(U|r)&(U|s)&(s)&(r)=>u
+Ta co: (R|s)&(R)&(U|r)&(U|s)&(s)&(r)=>u :Co Rðr o ve trai
+Ta co: (R|s)&(u)&(U|r)&(U|s)&(s)&(r)=>u :Co uðu o ve phai
+Chung minh xong!
